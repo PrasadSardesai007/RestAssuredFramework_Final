@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SimpleAPITestSuite]">
+  <test thread-count="5" name="APITests(failed)">
+    <classes>
+      <class name="com.qa.tests.LibraryAPITest">
+        <methods>
+          <include name="TC001_getBookByAuthorName_positiveScenario"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC002_getBookByAuthorName_NegativeScenario"/>
+        </methods>
+      </class> <!-- com.qa.tests.LibraryAPITest -->
+    </classes>
+  </test> <!-- APITests(failed) -->
+</suite> <!-- Failed suite [SimpleAPITestSuite] -->
